@@ -4,9 +4,9 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta name="theme-color" content="#000000">
-<meta name="description" content="PAINEL WN 777 - APKs Editáveis com Qualidade Premium e Atendimento via Chatbot">
+<meta name="description" content="PAINEL WN 777 - APKs Editáveis com Qualidade Premium e Atendimento via WhatsApp">
 <meta property="og:title" content="PAINEL WN ⁷⁷⁷ | APKs Editáveis Premium">
-<meta property="og:description" content="APKs Editáveis • Qualidade Premium • Atendimento via Chatbot • Pagamento via PIX">
+<meta property="og:description" content="APKs Editáveis • Qualidade Premium • Entrega via WhatsApp • Pagamento via PIX">
 <meta property="og:image" content="https://painelwn777.vercel.app/imagens/banner.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -15,7 +15,7 @@
 <meta property="og:site_name" content="PAINEL WN 777">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="PAINEL WN ⁷⁷⁷ | APKs Editáveis Premium">
-<meta name="twitter:description" content="APKs Editáveis • Qualidade Premium • Atendimento via Chatbot">
+<meta name="twitter:description" content="APKs Editáveis • Qualidade Premium • Entrega via WhatsApp">
 <meta name="twitter:image" content="https://painelwn777.vercel.app/imagens/banner.png">
 <link rel="icon" type="image/png" href="imagens/banner.png">
 <link rel="shortcut icon" type="image/png" href="imagens/banner.png">
@@ -29,11 +29,8 @@ html { scroll-behavior: smooth; }
 body { background-color: var(--preto); color: white; overflow-x: hidden; padding-top: 50px; }
 .fade-in { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
 .fade-in.visible { opacity: 1; transform: translateY(0); }
-
-/* BANNER VISÍVEL */
 .banner { width: 100%; margin: 0; padding: 0; display: block; }
 .banner-img { width: 100%; height: auto; display: block; }
-
 nav { position: fixed; top: 0; left: 0; width: 100%; background: rgba(0, 0, 0, 0.95); backdrop-filter: blur(10px); z-index: 1000; padding: 12px 20px; display: flex; justify-content: flex-end; align-items: center; border-bottom: 1px solid rgba(0, 255, 0, 0.3); }
 .nav-links { display: flex; gap: 1.2rem; }
 .nav-links a { color: #ddd; text-decoration: none; font-weight: 500; font-size: 0.9rem; transition: all 0.3s; }
@@ -47,10 +44,10 @@ main { padding: 0 16px 20px; padding-bottom: 120px; }
 .payment-methods { display: flex; justify-content: center; gap: 15px; margin: 15px 0; flex-wrap: wrap; }
 .payment-method { background: rgba(0, 255, 0, 0.1); padding: 10px 20px; border-radius: 8px; font-size: 0.9rem; display: flex; align-items: center; gap: 8px; border: 1px solid rgba(0, 255, 0, 0.3); }
 .payment-method i { font-size: 1.5rem; color: #00ff00; }
-.delivery-info { background: rgba(37, 211, 102, 0.1); border: 2px solid #25D366; border-radius: 10px; padding: 16px; margin: 20px 0; text-align: center; display: flex; align-items: center; justify-content: center; gap: 12px; }.delivery-info i { font-size: 1.8rem; color: #25D366; }
+.delivery-info { background: rgba(37, 211, 102, 0.1); border: 2px solid #25D366; border-radius: 10px; padding: 16px; margin: 20px 0; text-align: center; display: flex; align-items: center; justify-content: center; gap: 12px; }
+.delivery-info i { font-size: 1.8rem; color: #25D366; }
 .delivery-info span { color: #ddd; font-size: 0.95rem; }
-.section-title { margin: 24px 0 16px; font-size: 1.4rem; font-weight: bold; color: white; position: relative; padding-left: 12px; }
-.section-title::after { content: ''; position: absolute; bottom: -6px; left: 12px; width: 50px; height: 3px; background: var(--verde); }
+.section-title { margin: 24px 0 16px; font-size: 1.4rem; font-weight: bold; color: white; position: relative; padding-left: 12px; }.section-title::after { content: ''; position: absolute; bottom: -6px; left: 12px; width: 50px; height: 3px; background: var(--verde); }
 .stats-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 16px; margin: 24px 0; padding: 20px; background: rgba(0, 255, 0, 0.05); border-radius: 12px; border: 1px solid rgba(0, 255, 0, 0.2); }
 .stat-item { text-align: center; padding: 12px; }
 .stat-number { font-size: 2rem; font-weight: bold; color: var(--verde); display: block; text-shadow: 0 0 10px rgba(0, 255, 0, 0.5); }
@@ -96,10 +93,10 @@ main { padding: 0 16px 20px; padding-bottom: 120px; }
 .faq-section { margin: 24px 0; }
 .faq-item { margin-bottom: 12px; border: 1px solid rgba(0, 255, 0, 0.2); border-radius: 8px; overflow: hidden; }
 .faq-question { background: rgba(0, 255, 0, 0.1); padding: 16px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: all 0.3s; }
-.faq-question:hover { background: rgba(0, 255, 0, 0.2); }.faq-question strong { color: var(--verde); }
+.faq-question:hover { background: rgba(0, 255, 0, 0.2); }
+.faq-question strong { color: var(--verde); }
 .faq-answer { padding: 0 16px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; }
-.faq-answer.active { padding: 16px; max-height: 200px; }
-.newsletter { background: rgba(0, 255, 0, 0.1); border: 2px solid var(--verde); border-radius: 12px; padding: 24px; margin: 24px 0; text-align: center; }
+.faq-answer.active { padding: 16px; max-height: 200px; }.newsletter { background: rgba(0, 255, 0, 0.1); border: 2px solid var(--verde); border-radius: 12px; padding: 24px; margin: 24px 0; text-align: center; }
 .newsletter h3 { color: var(--verde); margin-bottom: 12px; font-size: 1.3rem; }
 .newsletter-form { display: flex; gap: 10px; margin-top: 16px; flex-wrap: wrap; justify-content: center; }
 .newsletter input { flex: 1; min-width: 200px; padding: 12px; border: 2px solid var(--verde); border-radius: 8px; background: #000; color: white; font-size: 0.95rem; }
@@ -145,10 +142,10 @@ main { padding: 0 16px 20px; padding-bottom: 120px; }
 .msg-content { max-width: 200px; padding: 8px 12px; border-radius: 14px; font-size: 12px; line-height: 1.4; }
 .message.bot .msg-content { background: #111; color: #00ff00; border: 1px solid #00ff00; }
 .message.user .msg-content { background: #00ff00; color: #000; border: 2px solid #000; }
-.chatbot-input { padding: 10px; border-top: 2px solid #00ff00; display: flex; gap: 6px; background: #000; }.chatbot-input input { flex: 1; padding: 8px 12px; border: 2px solid #00ff00; border-radius: 18px; font-size: 12px; background: #111; color: #00ff00; outline: none; }
+.chatbot-input { padding: 10px; border-top: 2px solid #00ff00; display: flex; gap: 6px; background: #000; }
+.chatbot-input input { flex: 1; padding: 8px 12px; border: 2px solid #00ff00; border-radius: 18px; font-size: 12px; background: #111; color: #00ff00; outline: none; }
 .chatbot-input input::placeholder { color: #00cc00; }
-.chatbot-input button { background: #00ff00; color: #000; border: 2px solid #000; padding: 8px 14px; border-radius: 18px; cursor: pointer; font-weight: 600; font-size: 14px; }
-.floating-buttons { position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 16px; z-index: 998; }
+.chatbot-input button { background: #00ff00; color: #000; border: 2px solid #000; padding: 8px 14px; border-radius: 18px; cursor: pointer; font-weight: 600; font-size: 14px; }.floating-buttons { position: fixed; bottom: 20px; right: 20px; display: flex; flex-direction: column; gap: 16px; z-index: 998; }
 .floating-btn { width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 26px; text-decoration: none; transition: transform 0.3s; box-shadow: 0 4px 15px rgba(0,0,0,0.5); }
 .floating-btn:hover { transform: scale(1.1); }
 .btn-whatsapp { background: #25D366; color: white; animation: pulseWhatsapp 2s infinite; }
@@ -179,24 +176,24 @@ footer { text-align: center; padding: 20px 16px; color: #555; font-size: 0.85rem
 <main>
 <div class="trust-badges fade-in">
 <div class="trust-badge"><i class="fas fa-shield-alt"></i><span>Compra 100% Segura</span></div>
-<div class="trust-badge"><i class="fas fa-bolt"></i><span>Atendimento no Chatbot</span></div>
+<div class="trust-badge"><i class="fas fa-bolt"></i><span>Entrega via WhatsApp</span></div>
 <div class="trust-badge"><i class="fas fa-headset"></i><span>Suporte 24/7</span></div>
 <div class="trust-badge"><i class="fas fa-undo"></i><span>Garantia de 7 dias</span></div>
 </div>
 <div class="payment-methods fade-in">
 <div class="payment-method"><i class="fas fa-qrcode"></i><span>Pagamento via PIX</span></div>
-<div class="payment-method"><i class="fas fa-comments"></i><span>Atendimento no Chatbot</span></div>
+<div class="payment-method"><i class="fab fa-whatsapp"></i><span>Entrega via WhatsApp</span></div>
 </div>
 <div class="delivery-info fade-in">
-<i class="fas fa-comments"></i>
-<span><strong>Atendimento no Chatbot:</strong> Após o PIX, converse diretamente no nosso chatbot para receber seu APK! Sem sair da página, rápido e seguro.</span>
+<i class="fab fa-whatsapp"></i>
+<span><strong>Entrega Imediata:</strong> Após confirmação do PIX, você recebe o APK no seu WhatsApp em até 5 minutos!</span>
 </div>
 <div class="stats-container fade-in">
 <div class="stat-item"><div class="stat-number" id="stat-clients">0</div><div class="stat-label">Clientes Satisfeitos</div></div>
 <div class="stat-item"><div class="stat-number" id="stat-sales">0</div><div class="stat-label">Entregas Realizadas</div></div>
-<div class="stat-item"><div class="stat-number">98%</div><div class="stat-label">Taxa de Aprovação</div></div><div class="stat-item"><div class="stat-number">4.9</div><div class="stat-label">Avaliação Média</div></div>
+<div class="stat-item"><div class="stat-number">98%</div><div class="stat-label">Taxa de Aprovação</div></div>
+<div class="stat-item"><div class="stat-number">4.9</div><div class="stat-label">Avaliação Média</div></div>
 </div>
-
 <!-- COMBO COM 5 APPS -->
 <div class="promo-banner fade-in" id="promos">
 <div class="promo-title">🔥 COMBO COMPLETO 🔥</div>
@@ -204,7 +201,7 @@ footer { text-align: center; padding: 20px 16px; color: #555; font-size: 0.85rem
 <div class="promo-old">De R$ 47,50</div>
 <div class="promo-price">Por R$ 34,90</div>
 <button class="buy-btn" onclick="comprar('combo')" style="max-width: 300px; margin: 0 auto; display: block; padding: 14px;">APROVEITAR OFERTA</button>
-<p style="margin-top: 12px; font-size: 0.85rem; color: #888;">⏰ Oferta por tempo limitado! Atendimento no chatbot</p>
+<p style="margin-top: 12px; font-size: 0.85rem; color: #888;">⏰ Oferta por tempo limitado! Entrega via WhatsApp</p>
 </div>
 
 <div class="status-bar fade-in">🟢 ONLINE • VENDENDO APKs REAIS</div>
@@ -226,7 +223,7 @@ footer { text-align: center; padding: 20px 16px; color: #555; font-size: 0.85rem
 <div class="price-tag"><span class="old-price">R$ 19,90</span>R$ 9,90</div>
 </div>
 <div>
-<button class="buy-btn" onclick="comprar('nubank')">Comprar no Chatbot</button>
+<button class="buy-btn" onclick="comprar('nubank')">Comprar via WhatsApp</button>
 <a href="https://tiktok.com/@painelwn777" target="_blank" class="video-link">🎬 Ver demo</a>
 </div>
 </div>
@@ -243,10 +240,10 @@ footer { text-align: center; padding: 20px 16px; color: #555; font-size: 0.85rem
 <div class="rating"><span class="stars">⭐⭐⭐⭐⭐</span><span class="rating-count">(4.8/5 - 98)</span></div>
 <div class="price-tag"><span class="old-price">R$ 19,90</span>R$ 9,90</div>
 </div>
-<div><button class="buy-btn" onclick="comprar('inter')">Comprar no Chatbot</button>
+<div>
+<button class="buy-btn" onclick="comprar('inter')">Comprar via WhatsApp</button>
 <a href="https://tiktok.com/@painelwn777" target="_blank" class="video-link">🎬 Ver demo</a>
-</div>
-</div>
+</div></div>
 </div>
 
 <!-- APP 3: NAÇÃO BRB FLA -->
@@ -261,7 +258,7 @@ footer { text-align: center; padding: 20px 16px; color: #555; font-size: 0.85rem
 <div class="price-tag"><span class="old-price">R$ 19,90</span>R$ 9,90</div>
 </div>
 <div>
-<button class="buy-btn" onclick="comprar('brb')">Comprar no Chatbot</button>
+<button class="buy-btn" onclick="comprar('brb')">Comprar via WhatsApp</button>
 <a href="https://tiktok.com/@painelwn777" target="_blank" class="video-link">🎬 Ver demo</a>
 </div>
 </div>
@@ -279,7 +276,7 @@ footer { text-align: center; padding: 20px 16px; color: #555; font-size: 0.85rem
 <div class="price-tag"><span class="old-price">R$ 19,90</span>R$ 9,90</div>
 </div>
 <div>
-<button class="buy-btn" onclick="comprar('mercadopago')">Comprar no Chatbot</button>
+<button class="buy-btn" onclick="comprar('mercadopago')">Comprar via WhatsApp</button>
 <a href="https://tiktok.com/@painelwn777" target="_blank" class="video-link">🎬 Ver demo</a>
 </div>
 </div>
@@ -292,11 +289,11 @@ footer { text-align: center; padding: 20px 16px; color: #555; font-size: 0.85rem
 <img src="imagens/chatbot.png" alt="Chatbot" class="card-img" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22160%22 height=%22160%22%3E%3Crect fill=%22%2325D366%22 width=%22160%22 height=%22160%22/%3E%3Ctext fill=%22white%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2218%22%3EChatbot%3C/text%3E%3C/svg%3E'">
 <div class="card-info">
 <div>
-<div class="card-title">Chatbot WhatsApp</div><div class="rating"><span class="stars">⭐⭐⭐⭐⭐</span><span class="rating-count">(5.0/5 - 156)</span></div>
+<div class="card-title">Chatbot WhatsApp</div>
+<div class="rating"><span class="stars">⭐⭐⭐⭐⭐</span><span class="rating-count">(5.0/5 - 156)</span></div>
 <div class="price-tag"><span class="old-price">R$ 15,00</span>R$ 7,90</div>
-</div>
-<div>
-<button class="buy-btn" onclick="comprar('chatbot')">Comprar no Chatbot</button>
+</div><div>
+<button class="buy-btn" onclick="comprar('chatbot')">Comprar via WhatsApp</button>
 <a href="https://tiktok.com/@painelwn777" target="_blank" class="video-link">🎬 Ver demo</a>
 </div>
 </div>
@@ -342,19 +339,19 @@ footer { text-align: center; padding: 20px 16px; color: #555; font-size: 0.85rem
 <div class="testimonial-date">📅 Comprou em: 8 de Janeiro, 2026</div>
 </div>
 </div>
+
 <h2 class="section-title fade-in" id="faq">PERGUNTAS FREQUENTES</h2>
-<div class="faq-section">
-<div class="faq-item fade-in">
+<div class="faq-section"><div class="faq-item fade-in">
 <div class="faq-question" onclick="toggleFaq(this)"><strong>🔐 O APK tem vírus?</strong><i class="fas fa-chevron-down"></i></div>
 <div class="faq-answer">Não. Todos os apps são 100% limpos, testados e sem malware. Passamos por rigorosos testes de segurança antes de disponibilizar.</div>
 </div>
 <div class="faq-item fade-in">
 <div class="faq-question" onclick="toggleFaq(this)"><strong>📦 Como recebo o app?</strong><i class="fas fa-chevron-down"></i></div>
-<div class="faq-answer">Após a confirmação do pagamento via PIX, você é atendido diretamente no nosso chatbot. Lá você envia o comprovante e recebe o APK em até 5 minutos, junto com todas as instruções de instalação.</div>
+<div class="faq-answer">Após a confirmação do pagamento via PIX, enviamos o APK diretamente no seu WhatsApp em até 5 minutos, junto com todas as instruções de instalação.</div>
 </div>
 <div class="faq-item fade-in">
 <div class="faq-question" onclick="toggleFaq(this)"><strong>💳 Quais formas de pagamento?</strong><i class="fas fa-chevron-down"></i></div>
-<div class="faq-answer">Aceitamos apenas PIX para agilizar a entrega. O PIX é processado instantaneamente e você é atendido no chatbot em minutos!</div>
+<div class="faq-answer">Aceitamos apenas PIX para agilizar a entrega. O PIX é processado instantaneamente e você recebe seu produto em minutos!</div>
 </div>
 <div class="faq-item fade-in">
 <div class="faq-question" onclick="toggleFaq(this)"><strong>🔄 Tem atualização grátis?</strong><i class="fas fa-chevron-down"></i></div>
@@ -390,10 +387,10 @@ footer { text-align: center; padding: 20px 16px; color: #555; font-size: 0.85rem
 </div>
 </div>
 
-<div class="exit-popup" id="exit-popup"><div class="exit-popup-content">
+<div class="exit-popup" id="exit-popup">
+<div class="exit-popup-content">
 <h2>🎁 ESPERE! NÃO VÁ EMBORA!</h2>
-<p>Ganhe <span class="discount">10% OFF</span> na sua primeira compra!</p>
-<p style="font-size: 0.9rem; color: #888;">Use o cupom: <strong style="color: var(--verde);">PRIMEIRA10</strong></p>
+<p>Ganhe <span class="discount">10% OFF</span> na sua primeira compra!</p><p style="font-size: 0.9rem; color: #888;">Use o cupom: <strong style="color: var(--verde);">PRIMEIRA10</strong></p>
 <button onclick="closeExitPopup()">QUERO MEU DESCONTO!</button>
 <button class="close-popup" onclick="closeExitPopup()">Não, obrigado</button>
 </div>
@@ -439,9 +436,9 @@ let startTime = new Date().getTime(); let endTime = startTime + duration; let ti
 function run() { let now = new Date().getTime(); let remaining = Math.max((endTime - now) / duration, 0);
 let value = Math.round(end - (remaining * range)); obj.innerHTML = value.toLocaleString('pt-BR');
 if (value == end) { clearInterval(timer); } }
-timer = setInterval(run, stepTime); run();}
+timer = setInterval(run, stepTime); run();
+}
 setTimeout(() => { animateValue("stat-clients", 0, 10547, 2000); animateValue("stat-sales", 0, 50234, 2000); }, 1000);
-
 let count = 0;
 setInterval(() => { count += Math.floor(Math.random() * 8) + 3; document.getElementById('sales-count').textContent = (count >= 2105 ? 2105 : Math.floor(count)).toLocaleString('pt-BR'); }, 90);
 setInterval(() => { document.getElementById('minutes').textContent = Math.floor(Math.random() * 12) + 1; }, 30000);
@@ -480,15 +477,27 @@ let exitPopupShown = false;
 document.addEventListener('mouseout', (e) => { if (e.clientY < 0 && !exitPopupShown) { document.getElementById('exit-popup').classList.add('show'); exitPopupShown = true; } });
 function closeExitPopup() { document.getElementById('exit-popup').classList.remove('show'); }
 
+// ===== COMPRA - WHATSAPP + PIX =====
 function comprar(app) {
-const chatbotUrl = 'https://painelwn777-chatbot.vercel.app';
-const produtos = { 'nubank': 'nubank', 'inter': 'inter', 'brb': 'brb', 'mercadopago': 'mercadopago', 'chatbot': 'chatbot', 'combo': 'combo' };
-if (produtos[app]) { window.open(chatbotUrl + '?produto=' + produtos[app], '_blank'); } else { window.open(chatbotUrl, '_blank'); }
+const links = {
+'nubank': 'https://wa.me/5521987052110?text=Olá!+Quero+comprar+o+Nubank+Editável+APK+por+R$9,90.+Pagamento+via+PIX',
+'inter': 'https://wa.me/5521987052110?text=Olá!+Quero+comprar+o+Inter+Editável+APK+por+R$9,90.+Pagamento+via+PIX',
+'brb': 'https://wa.me/5521987052110?text=Olá!+Quero+comprar+o+Nação+BRB+Fla+APK+por+R$9,90.+Pagamento+via+PIX',
+'mercadopago': 'https://wa.me/5521987052110?text=Olá!+Quero+comprar+o+Mercado+Pago+Editável+por+R$9,90.+Pagamento+via+PIX',
+'chatbot': 'https://wa.me/5521987052110?text=Olá!+Quero+comprar+o+Chatbot+WhatsApp+por+R$7,90.+Pagamento+via+PIX',
+'combo': 'https://wa.me/5521987052110?text=Olá!+Quero+o+COMBO+COMPLETO+(5+apps)+por+R$34,90.+Pagamento+via+PIX'
+};
+if (links[app]) {
+window.open(links[app], '_blank');} else {
+alert('Disponível em breve!');
+}
 }
 
+// ===== CHATBOT =====
 function toggleChat() { document.getElementById('chatbot-window').classList.toggle('active'); }
 function handleChatKey(e) { if (e.key === 'Enter') sendChat(); }
-function sendChat() {const input = document.getElementById('chat-input'); const msg = input.value.trim();
+function sendChat() {
+const input = document.getElementById('chat-input'); const msg = input.value.trim();
 if (!msg) return; addChatMsg(msg, 'user'); input.value = '';
 setTimeout(() => addChatMsg(getBotResponse(msg), 'bot'), 600);
 }
@@ -500,19 +509,19 @@ container.appendChild(div); container.scrollTop = container.scrollHeight;
 }
 function getBotResponse(msg) {
 const m = msg.toLowerCase();
-if (m.includes('nubank')) return 'Nubank Editável: R$ 9,90! Pagamento via PIX, atendimento no chatbot!';
-if (m.includes('inter')) return 'Inter Editável: R$ 9,90! Pagamento via PIX, atendimento no chatbot!';
-if (m.includes('brb') || m.includes('fla') || m.includes('nação')) return 'Nação BRB Fla: R$ 9,90! Pagamento via PIX, atendimento no chatbot!';
-if (m.includes('mercado') || m.includes('pago') || m.includes('mp')) return 'Mercado Pago Editável: R$ 9,90! Pagamento via PIX, atendimento no chatbot!';
-if (m.includes('chatbot')) return 'Chatbot WhatsApp: R$ 7,90! Pagamento via PIX, atendimento no chatbot!';
+if (m.includes('nubank')) return 'Nubank Editável: R$ 9,90! Pagamento via PIX, entrega no WhatsApp em 5 minutos!';
+if (m.includes('inter')) return 'Inter Editável: R$ 9,90! Pagamento via PIX, entrega no WhatsApp em 5 minutos!';
+if (m.includes('brb') || m.includes('fla') || m.includes('nação')) return 'Nação BRB Fla: R$ 9,90! Pagamento via PIX, entrega no WhatsApp em 5 minutos!';
+if (m.includes('mercado') || m.includes('pago') || m.includes('mp')) return 'Mercado Pago Editável: R$ 9,90! Pagamento via PIX, entrega no WhatsApp em 5 minutos!';
+if (m.includes('chatbot')) return 'Chatbot WhatsApp: R$ 7,90! Pagamento via PIX, entrega no WhatsApp em 5 minutos!';
 if (m.includes('combo') || m.includes('pacote')) return 'Combo Completo (5 apps): R$ 34,90! Economia de R$ 12,60!';
-if (m.includes('pix') || m.includes('pagamento')) return 'Aceitamos apenas PIX! Atendimento no chatbot após confirmação.';
-if (m.includes('entrega') || m.includes('receber')) return 'Atendimento no chatbot! Após o PIX, converse direto no chatbot para receber seu APK.';
-if (m.includes('olá') || m.includes('oi')) return 'Olá! 👋 Qual app te interessa? Pagamento via PIX, atendimento no chatbot!';
-return 'Clique em "Comprar no Chatbot" ou me chama: wa.me/5521987052110';
+if (m.includes('pix') || m.includes('pagamento')) return 'Aceitamos apenas PIX! Entrega imediata no WhatsApp após confirmação.';
+if (m.includes('entrega') || m.includes('receber')) return 'Entrega via WhatsApp em até 5 minutos após confirmação do PIX!';
+if (m.includes('olá') || m.includes('oi')) return 'Olá! 👋 Qual app te interessa? Pagamento via PIX, entrega no WhatsApp!';
+return 'Clique em "Comprar via WhatsApp" ou me chama: wa.me/5521987052110';
 }
 document.addEventListener('contextmenu', e => e.preventDefault());
 document.addEventListener('keydown', e => { if (e.ctrlKey && ['u','s','i'].includes(e.key.toLowerCase())) e.preventDefault(); });
 </script>
 </body>
-      </html>
+                                                                               </html>
